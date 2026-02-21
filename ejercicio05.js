@@ -2,9 +2,13 @@
 // Declara una función llamada "calcularAreaRectangulo" que acepte dos parámetros, "ancho" y "alto", y retorne el área del rectángulo
 
 //escribe tu función aquí. Recuerda que el nombre exacto de la función es "calcularAreaRectangulo"
+function calcularAreaRectangulo(base,altura){
+    return base * altura;
+}
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
     calcularAreaRectangulo
 };
+console.log("La base del rectagulo es : " + calcularAreaRectangulo(4.2,8.93))

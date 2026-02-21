@@ -7,9 +7,11 @@
 
 function invertirCadena(cadena) {
     // Escribe tu código aquí
+    return cadena.split('').reverse().join('');
 }
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
     invertirCadena
 };
+console.log(invertirCadena("abcdefghijklmnopqrstuvwxyz"))

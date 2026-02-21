@@ -2,9 +2,13 @@
 // Declara una función llamada "sumar" que acepte dos parámetros (a y b) y retorne su suma
 
 //Escribe tu función aquí
+function sumar(a,b){
+    return a + b;
+}
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
     sumar
 };
+console.log("El resultado de la suma es = " + sumar(0.34,89.6));
